@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fusion — Support</title>
+<meta name="description" content="Help and contact for Fusion, the element merge puzzle game for iPhone.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root{--bg:#0a0c0f;--text:#e8ecf1;--muted:#8a93a0;--line:#1d2229;--accent:#7fe0d0;--card:#0d1013;--outline:#232931}
+  @media (prefers-color-scheme: light){:root{--bg:#f2f3f5;--text:#14181d;--muted:#5b6370;--line:#dde0e5;--accent:#12806f;--card:#ffffff;--outline:#dde0e5}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:'Space Grotesk',system-ui,sans-serif;line-height:1.55}
+  main{max-width:680px;margin:0 auto;padding:56px 20px 72px}
+  .label{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0}
+  h1{font-size:44px;line-height:1.05;letter-spacing:-1.2px;margin:10px 0 8px}
+  h2{font-size:20px;margin:0 0 6px}
+  p{margin:0 0 12px}
+  a{color:var(--accent)}
+  .tile{width:56px;height:56px;border-radius:8px;background:#a32545;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:24px}
+  .lead{color:var(--muted);font-size:18px}
+  section{border-top:1px solid var(--line);padding-top:24px;margin-top:28px}
+  .contact{display:inline-flex;align-items:center;min-height:48px;padding:0 20px;border-radius:10px;background:var(--accent);color:var(--bg);font-weight:600;text-decoration:none;margin-top:6px}
+  .faq{display:grid;gap:12px}
+  .q{background:var(--card);border:1px solid var(--outline);border-radius:10px;padding:16px}
+  footer{margin-top:40px;font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--muted);display:flex;gap:16px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+<main>
+  <div class="tile" aria-hidden="true">Fs</div>
+  <p class="label" style="margin-top:20px">Support</p>
+  <h1>Fusion</h1>
+  <p class="lead">An element merge puzzle for iPhone. Slide tiles, fuse hydrogen into helium, and climb the periodic table.</p>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Found a bug, have an idea, or need help? Email me and I'll get back to you as soon as I can.</p>
+    <a class="contact" href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a>
+  </section>
+
+  <section>
+    <p class="label" style="margin-bottom:14px">Common questions</p>
+    <div class="faq">
+      <div class="q"><h2>How do I play?</h2><p>Swipe to slide every tile. Two matching elements that touch fuse into the next one up: H + H makes He, He + He makes Li, and so on.</p></div>
+      <div class="q"><h2>What is Fission mode?</h2><p>Uranium sinks to the bottom and never fuses. Swipe a neutron down onto it to split it for big points. Push two uranium together for critical mass. Switch modes in Settings.</p></div>
+      <div class="q"><h2>Will I lose my progress if I switch modes?</h2><p>No. Classic and Fission each keep their own game in progress and their own best score.</p></div>
+      <div class="q"><h2>How do I turn off sound or haptics?</h2><p>Open Settings with the gear icon and use the Sound and Haptics toggles.</p></div>
+    </div>
+  </section>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a>
+    <span>© 2026 [YOUR NAME]</span>
+  </footer>
+</main>
+</body>
+</html>
